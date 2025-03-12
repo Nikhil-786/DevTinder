@@ -16,3 +16,5 @@ If you are developing a production application, we recommend using TypeScript an
 Create vite project -devTinder
 //Installed tailwind css
 //configured daisy tailwind UI an implement it.
+//added nav bar using daisy UI
+//created Nav bar
