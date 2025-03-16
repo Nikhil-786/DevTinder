@@ -31,4 +31,13 @@ Login Component
 //Configured googlefirebase login to login into application.
 //refatored code.
 
+//configure user details to store username and photo 
+//add field usename and upload photo for signin user. done
+// configure cloud store to add sign up details.
+// after login in show details name and photo .
+
+need to do this after lunch.
+
+
+
 

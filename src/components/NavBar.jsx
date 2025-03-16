@@ -1,6 +1,13 @@
-import React from "react";
-
+import { useNavigate } from "react-router";
+import { auth } from "../utils/firebase";
 const NavBar = () => {
+const navigate = useNavigate();
+  async function handleLogout(){
+   await auth.signOut();
+   navigate('/Login');
+   
+  }
+
   return (
     <div className="navbar bg-orange-600 shadow-sm">
       <div className="flex-1">
@@ -33,7 +40,7 @@ const NavBar = () => {
             <li>
               <a>Settings</a>
             </li>
-            <li>
+            <li onClick={handleLogout}>
               <a>Logout</a>
             </li>
           </ul>
