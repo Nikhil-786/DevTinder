@@ -18,3 +18,17 @@ Create vite project -devTinder
 //configured daisy tailwind UI an implement it.
 //added nav bar using daisy UI
 //created Nav bar
+// integrate react-router-dom.
+//create react-router-com
+// add child component 
+
+
+Login Component
+
+-Created userName and password field and login field.
+//Since not able to login with the back end config need to use google firebase for login.
+//need to configure google firebase for authentication.
+//Configured googlefirebase login to login into application.
+//refatored code.
+
+
